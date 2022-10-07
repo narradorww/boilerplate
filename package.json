@@ -11,6 +11,17 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "yarn eslint --fix",
+      "yarn test --bail"
+    ]
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
