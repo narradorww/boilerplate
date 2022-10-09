@@ -4,12 +4,16 @@ const Main = () => {
   return (
     <S.Wrapper>
       <S.Logo
-        src="/img/logo.svg"
+        src="/img/boilerplatenext.svg"
         alt="Imagem de um átomo e React Avançado escrito ao lado."
       />
-      <S.Title>React Avançado</S.Title>
+      <S.Title>A boilerplate to NextJS Projects4 </S.Title>
       <S.Description>
-        Typescript, ReactJS, NextJS e Styled Components
+        A simple project starter to work with TypeScript, React, NextJS and
+        Styled, based on the course React Avançado by{' '}
+        <a href="https://github.com/willianjusten/my-trips">
+          Willian Justen de Vasconcellos{' '}
+        </a>
       </S.Description>
       <S.Illustration
         src="/img/travel-illustration.svg"
